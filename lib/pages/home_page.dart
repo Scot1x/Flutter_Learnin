@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class good extends StatelessWidget {
+class HomePage extends StatelessWidget {
   String cool = "Build in progress";
   @override
   Widget build(BuildContext context) {
