@@ -4,6 +4,7 @@ import 'package:trial_app_2/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:trial_app_2/utils/routes.dart';
 
+//git push --set-upstream origin Day
 void main() {
   runApp(myapp());
 }
