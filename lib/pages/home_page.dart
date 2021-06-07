@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trial_app_2/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   String cool = "Build in progress";
@@ -13,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: Text("$cool"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
