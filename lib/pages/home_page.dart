@@ -7,7 +7,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Mint_Beta"),
+        title: Text(
+          "\t \t \t \t \t Mint Catalog",
+        ),
       ),
       body: Center(
         child: Container(
