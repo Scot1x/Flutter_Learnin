@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:trial_app_2/models/catalog.dart';
 import 'package:trial_app_2/widgets/drawer.dart';
+import 'package:trial_app_2/widgets/item_widget.dart';
 
 class HomePage extends StatelessWidget {
   String cool = "Build in progress";
@@ -11,9 +13,15 @@ class HomePage extends StatelessWidget {
           "\t \t \t \t \t Mint Catalog",
         ),
       ),
-      body: Center(
-        child: Container(
-          child: Text("$cool"),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: ListView.builder(
+          itemCount: CatalogModel.product.length,
+          itemBuilder: (context, index) {
+            return ItemWidget(
+              product: CatalogModel.product[index],
+            );
+          },
         ),
       ),
       drawer: MyDrawer(),
