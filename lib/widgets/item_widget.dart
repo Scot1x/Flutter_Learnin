@@ -19,12 +19,12 @@ class ItemWidget extends StatelessWidget {
         title: Text(product.name),
         subtitle: Text(
           product.desc,
-          style: TextStyle(color: Colors.green),
+          style: TextStyle(color: Colors.green, fontSize: 12),
         ),
         trailing: Text(
           "\Rs ${product.price}",
           style: TextStyle(color: Colors.green),
-          textScaleFactor: 1.5,
+          textScaleFactor: 1.3,
         ),
       ),
     );

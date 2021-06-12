@@ -1,0 +1,95 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Gtx 1050",
+            "desc": "OC 4gb Edition",
+            "price": 13200,
+            "color": "#33505a",
+            "image":
+                "https://images-na.ssl-images-amazon.com/images/I/81VBPk5pnLL._AC_SL1500_.jpg"
+    
+        },
+        {
+            "id": 2,
+            "name": "Gtx 1050 Ti",
+            "desc": "OC 4gb Edition GDDR5",
+            "price": 14500,
+            "color": "#e0bfae",
+            "image":
+                "https://www.zotac.com/download/files/styles/w1024/public/product_gallery/graphics_cards/zt-p10510a-10l_image1.jpg?itok=DH8QmOaB" 
+        },
+        {
+            "id": 3,
+            "name": "Gtx 1060",
+            "desc": "6gb XLR8 OC",
+            "price": 17499,
+            "color": "#544ee4",
+            "image":
+                "https://www.asus.com/media/global/gallery/wfkzyACkYmyELv3T_setting_xxx_0_90_end_2000.png"
+        },
+        {
+            "id": 4,
+            "name": "Gtx 1070",
+            "desc": "8gb VCGGTX10708PB",
+            "price": 38730,
+            "color": "#e3e4e9",
+            "image":
+                "https://images-na.ssl-images-amazon.com/images/I/51z3ReGahgL.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Gtx 1080",
+            "desc": "Founders Edition",
+            "price": 49999,
+            "color": "#f73984",
+            "image":
+                "https://www.asus.com/media/global/products/uArZ5sAG3hEX72KU/P_setting_xxx_0_90_end_692.png"
+        },
+        {
+            "id": 6,
+            "name": "Gtx 1080 Ti",
+            "desc": "11gb GDDR5X PCI",
+            "price": 59922,
+            "color": "#icicic",
+            "image":
+                "https://asset.msi.com/resize/image/global/product/product_10_20171012102324_59ded21c80f3b.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+        },
+        {
+            "id": 7,
+            "name": "Gtx 1650",
+            "desc": "X 4gb GDDR6 Gaming Edition",
+            "price": 15000,
+            "color": "#7c95eb",
+            "image":
+                "https://www.servethehome.com/wp-content/uploads/2019/05/Gigabyte-GTX1650-OC-4GB.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Gtx 1650 Super",
+            "desc": "Twin X2 OC 4gb Edition",
+            "price": 17400,
+            "color": "#B22222",
+            "image":
+                "https://images-na.ssl-images-amazon.com/images/I/61rzWyQBAoL._AC_SX450_.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Gtx 1660",
+            "desc": "Super Edition 192-bit",
+            "price": 21300,
+            "color": "#8B0000",
+            "image":
+                "https://www.asus.com/media/global/products/x03AiX1wsU0ZEklC/P_setting_xxx_0_90_end_692.png"
+        },
+        {
+            "id": 10,
+            "name": "Gtx 1660 Super",
+            "desc": "Ultra 6gb GDRR6",
+            "price": 25700,
+            "color": "#FF0000",
+            "image":
+                "https://gamesncomps.com/wp-content/uploads/2019/11/b1.png"
+        }
+    ]
+}
