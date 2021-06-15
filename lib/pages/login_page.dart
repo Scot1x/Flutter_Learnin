@@ -74,6 +74,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 children: [
                   TextFormField(
+                    cursorColor: Colors.green,
                     decoration: InputDecoration(
                       hintText: "Enter User Name",
                       labelText: "User Name",
@@ -91,6 +92,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                   ),
                   TextFormField(
+                    cursorColor: Colors.green,
                     obscureText: true,
                     decoration: InputDecoration(
                       hintText: "Enter Password",

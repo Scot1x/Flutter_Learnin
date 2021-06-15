@@ -14,11 +14,11 @@ class HomeDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Mytheme.creamColor,
+        backgroundColor: context.canvasColor,
         elevation: 0,
       ),
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.canvasColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -26,13 +26,15 @@ class HomeDetailPage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all(context.theme.buttonColor),
                   shape: MaterialStateProperty.all(StadiumBorder())),
               child: "Add to cart".text.make(),
             ).wh(120, 50),
           ],
         ).p16(),
       ),
-      backgroundColor: Mytheme.creamColor,
+      backgroundColor: context.canvasColor,
       body: SafeArea(
         bottom: false,
         child: Column(
@@ -48,18 +50,20 @@ class HomeDetailPage extends StatelessWidget {
                     arcType: VxArcType.CONVEY,
                     child: Container(
                       width: context.screenWidth,
-                      color: Colors.white,
+                      color: context.cardColor,
                       child: Column(
                         children: [
                           catalog.name.text.xl4
-                              .color(Mytheme.darkGreen)
+                              .color(context.theme.buttonColor)
                               .bold
                               .make(),
-                          catalog.desc.text.sm.color(Colors.black54).make(),
+                          catalog.desc.text.sm
+                              .color(context.accentColor)
+                              .make(),
                           "Lange dahinten zuletzt gefärbt perlet die lieb. Du liebe seufzer  schwester. Ich stillestehn , der mein   ist du ergötzt bäume. Der vaterland heut deiner gestehe die."
                               .text
                               .sm
-                              .color(Colors.black54)
+                              .color(context.accentColor)
                               .make()
                               .py12(),
                         ],
